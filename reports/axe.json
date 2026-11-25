@@ -1,0 +1,104 @@
+[
+ {
+  "pantalla": "login",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ },
+ {
+  "pantalla": "tablero",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ },
+ {
+  "pantalla": "mapa",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ },
+ {
+  "pantalla": "sectores",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ },
+ {
+  "pantalla": "telemetria",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ },
+ {
+  "pantalla": "balance",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ },
+ {
+  "pantalla": "nocturno",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ },
+ {
+  "pantalla": "presiones",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ },
+ {
+  "pantalla": "submedicion",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ },
+ {
+  "pantalla": "alertas",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ },
+ {
+  "pantalla": "pasos",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ },
+ {
+  "pantalla": "ordenes",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ },
+ {
+  "pantalla": "campo",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ },
+ {
+  "pantalla": "usuarios",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ },
+ {
+  "pantalla": "rendimiento",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ },
+ {
+  "pantalla": "operacion",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ },
+ {
+  "pantalla": "accesibilidad",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ }
+]

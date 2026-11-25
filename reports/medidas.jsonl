@@ -1,0 +1,6 @@
+{"prueba":"CAL-02 Rendimiento medido en la aplicación (latencia, carga y cálculo anual)","metrica":"Latencia p50 lectura→pantalla","valor":5,"unidad":"ms","fecha":"2026-11-22T20:46:11.281Z"}
+{"prueba":"CAL-02 Rendimiento medido en la aplicación (latencia, carga y cálculo anual)","metrica":"Latencia p95 lectura→pantalla","valor":8,"unidad":"ms","fecha":"2026-11-22T20:46:11.281Z"}
+{"prueba":"CAL-02 Rendimiento medido en la aplicación (latencia, carga y cálculo anual)","metrica":"Muestras de latencia","valor":10,"unidad":"lecturas","fecha":"2026-11-22T20:46:11.281Z"}
+{"prueba":"CAL-02 Rendimiento medido en la aplicación (latencia, carga y cálculo anual)","metrica":"Cálculo de un año de balance","valor":0.5,"unidad":"ms","fecha":"2026-11-22T20:46:11.281Z"}
+{"prueba":"HU01-E01 Carga del mapa del sector en menos de 3 s","metrica":"Tiempo de carga del mapa","valor":186,"unidad":"ms","fecha":"2026-11-22T20:46:12.022Z"}
+{"prueba":"HU04-E04 Simulador del gemelo digital registra lecturas de todos los puntos","metrica":"Tiempo hasta ver la nueva lectura del simulador","valor":4908,"unidad":"ms","fecha":"2026-11-22T20:46:23.644Z"}

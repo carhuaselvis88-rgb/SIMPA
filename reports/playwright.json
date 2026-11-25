@@ -1,0 +1,805 @@
+{
+  "config": {
+    "argv": [
+      "/opt/node22/bin/node",
+      "/home/claude/pa3/app/simpa/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/home/claude/pa3/app/simpa/playwright.config.ts",
+    "rootDir": "/home/claude/pa3/app/simpa/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/claude/pa3/app/simpa/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "escritorio",
+        "name": "escritorio",
+        "testDir": "/home/claude/pa3/app/simpa/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/playwright",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/playwright.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "npx vite preview --port 4173 --strictPort",
+      "url": "http://localhost:4173",
+      "reuseExistingServer": true,
+      "timeout": 60000
+    }
+  },
+  "suites": [
+    {
+      "title": "calidad.spec.ts",
+      "file": "calidad.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "CAL-01 Accesibilidad WCAG 2.1 AA con axe-core en las 16 pantallas y el inicio de sesión",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "escritorio",
+              "projectName": "escritorio",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15252,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-22T20:45:13.363Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/home/claude/pa3/app/simpa/test-results/calidad-CAL-01-Accesibilid-c6b10-allas-y-el-inicio-de-sesión-escritorio/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7aa7d9a71f171d730a62-d7dcacf8b8d3b56238fa",
+          "file": "calidad.spec.ts",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "CAL-02 Rendimiento medido en la aplicación (latencia, carga y cálculo anual)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "escritorio",
+              "projectName": "escritorio",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 42666,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-22T20:45:28.751Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/home/claude/pa3/app/simpa/test-results/calidad-CAL-02-Rendimiento-bcb84-ncia-carga-y-cálculo-anual--escritorio/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7aa7d9a71f171d730a62-4f111f1d49cf0a858433",
+          "file": "calidad.spec.ts",
+          "line": 24,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "hu01_mapa.spec.ts",
+      "file": "hu01_mapa.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "HU01 · Ver mapa de red y sectores",
+          "file": "hu01_mapa.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "HU01-E01 Carga del mapa del sector en menos de 3 s",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "escritorio",
+                  "projectName": "escritorio",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 775,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-22T20:46:11.444Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/claude/pa3/app/simpa/test-results/hu01_mapa-HU01-·-Ver-mapa--ac197--del-sector-en-menos-de-3-s-escritorio/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b3bb48fc010162e3792e-fb1cadba9dd3bdb58957",
+              "file": "hu01_mapa.spec.ts",
+              "line": 7,
+              "column": 3
+            },
+            {
+              "title": "HU01-E02 Activar y desactivar capas sin recargar",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "escritorio",
+                  "projectName": "escritorio",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 854,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-22T20:46:12.239Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/claude/pa3/app/simpa/test-results/hu01_mapa-HU01-·-Ver-mapa--d7bc9-sactivar-capas-sin-recargar-escritorio/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b3bb48fc010162e3792e-3898510e8dde099621bc",
+              "file": "hu01_mapa.spec.ts",
+              "line": 22,
+              "column": 3
+            },
+            {
+              "title": "HU01-E03 Consultar un punto de medición",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "escritorio",
+                  "projectName": "escritorio",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1065,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-22T20:46:13.112Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/claude/pa3/app/simpa/test-results/hu01_mapa-HU01-·-Ver-mapa--43ce2-sultar-un-punto-de-medición-escritorio/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b3bb48fc010162e3792e-5676107f994611dd2e8e",
+              "file": "hu01_mapa.spec.ts",
+              "line": 36,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "hu02_sectores.spec.ts",
+      "file": "hu02_sectores.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "HU02 · Gestionar sectores y puntos de medición",
+          "file": "hu02_sectores.spec.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "HU02-E01 Importación válida de 3 sectores",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "escritorio",
+                  "projectName": "escritorio",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 706,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-22T20:46:14.208Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/claude/pa3/app/simpa/test-results/hu02_sectores-HU02-·-Gesti-41267-tación-válida-de-3-sectores-escritorio/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "57862b3f8645c0e170ce-772767b9823fcd386614",
+              "file": "hu02_sectores.spec.ts",
+              "line": 11,
+              "column": 3
+            },
+            {
+              "title": "HU02-E02 Geometría inválida en la fila 2: no se guarda nada",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "escritorio",
+                  "projectName": "escritorio",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 645,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-22T20:46:14.926Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/claude/pa3/app/simpa/test-results/hu02_sectores-HU02-·-Gesti-3f13d-la-fila-2-no-se-guarda-nada-escritorio/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "57862b3f8645c0e170ce-e530247074457011317f",
+              "file": "hu02_sectores.spec.ts",
+              "line": 22,
+              "column": 3
+            },
+            {
+              "title": "HU02-E03 Sector sin punto de entrada bloquea el balance",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "escritorio",
+                  "projectName": "escritorio",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 612,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-22T20:46:15.592Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/claude/pa3/app/simpa/test-results/hu02_sectores-HU02-·-Gesti-c72f6--entrada-bloquea-el-balance-escritorio/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "57862b3f8645c0e170ce-d418257936474e992caf",
+              "file": "hu02_sectores.spec.ts",
+              "line": 34,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "hu04_telemetria.spec.ts",
+      "file": "hu04_telemetria.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "HU04 · Recibir telemetría por API y simulador",
+          "file": "hu04_telemetria.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "HU04-E01 Lectura válida por API (201, origen api)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "escritorio",
+                  "projectName": "escritorio",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 660,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-22T20:46:16.225Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/claude/pa3/app/simpa/test-results/hu04_telemetria-HU04-·-Rec-4d819-ida-por-API-201-origen-api--escritorio/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cada883f44eb6fe51b08-acc5eec0c4d90419feec",
+              "file": "hu04_telemetria.spec.ts",
+              "line": 7,
+              "column": 3
+            },
+            {
+              "title": "HU04-E02 Lectura duplicada o imposible (422 y bitácora de rechazos)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "escritorio",
+                  "projectName": "escritorio",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 779,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-22T20:46:16.901Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/claude/pa3/app/simpa/test-results/hu04_telemetria-HU04-·-Rec-b1e79-422-y-bitácora-de-rechazos--escritorio/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cada883f44eb6fe51b08-1938846e03ba7c6e9097",
+              "file": "hu04_telemetria.spec.ts",
+              "line": 19,
+              "column": 3
+            },
+            {
+              "title": "HU04-E03 Token inválido (401, sin registro)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "escritorio",
+                  "projectName": "escritorio",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 621,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-22T20:46:17.692Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/claude/pa3/app/simpa/test-results/hu04_telemetria-HU04-·-Rec-269f2--inválido-401-sin-registro--escritorio/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cada883f44eb6fe51b08-78d8eaf1f828f9772965",
+              "file": "hu04_telemetria.spec.ts",
+              "line": 35,
+              "column": 3
+            },
+            {
+              "title": "HU04-E04 Simulador del gemelo digital registra lecturas de todos los puntos",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "escritorio",
+                  "projectName": "escritorio",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5446,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-22T20:46:18.334Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/claude/pa3/app/simpa/test-results/hu04_telemetria-HU04-·-Rec-0477f-ecturas-de-todos-los-puntos-escritorio/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cada883f44eb6fe51b08-35e542448614b5e9481f",
+              "file": "hu04_telemetria.spec.ts",
+              "line": 44,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "hu21_sesion.spec.ts",
+      "file": "hu21_sesion.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "HU21 · Iniciar sesión según el rol",
+          "file": "hu21_sesion.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "HU21-E01 Acceso según el rol del operador",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "escritorio",
+                  "projectName": "escritorio",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 548,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-22T20:46:23.801Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/claude/pa3/app/simpa/test-results/hu21_sesion-HU21-·-Iniciar-2dd56-o-según-el-rol-del-operador-escritorio/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3722d6a6a06c9c9c60c2-12e9ee6cb4934292baf1",
+              "file": "hu21_sesion.spec.ts",
+              "line": 5,
+              "column": 3
+            },
+            {
+              "title": "HU21-E02 Cinco intentos fallidos bloquean el acceso 15 minutos",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "escritorio",
+                  "projectName": "escritorio",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1562,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-22T20:46:24.363Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/claude/pa3/app/simpa/test-results/hu21_sesion-HU21-·-Iniciar-22442-oquean-el-acceso-15-minutos-escritorio/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3722d6a6a06c9c9c60c2-5ff403cbc5449a63d15c",
+              "file": "hu21_sesion.spec.ts",
+              "line": 14,
+              "column": 3
+            },
+            {
+              "title": "HU21-E03 Cuadrilla intenta abrir la gestión de usuarios",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "escritorio",
+                  "projectName": "escritorio",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 449,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-22T20:46:25.938Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/claude/pa3/app/simpa/test-results/hu21_sesion-HU21-·-Iniciar-63236-brir-la-gestión-de-usuarios-escritorio/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3722d6a6a06c9c9c60c2-f0b37bde78eef4af2fcd",
+              "file": "hu21_sesion.spec.ts",
+              "line": 25,
+              "column": 3
+            },
+            {
+              "title": "HU21-E04 La cuadrilla solo ve las órdenes de su cuadrilla",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "escritorio",
+                  "projectName": "escritorio",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 489,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-22T20:46:26.404Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/claude/pa3/app/simpa/test-results/hu21_sesion-HU21-·-Iniciar-abe4d-las-órdenes-de-su-cuadrilla-escritorio/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3722d6a6a06c9c9c60c2-ab80f3a197c0063f019e",
+              "file": "hu21_sesion.spec.ts",
+              "line": 33,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-22T20:45:12.686Z",
+    "duration": 74292.455,
+    "expected": 16,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

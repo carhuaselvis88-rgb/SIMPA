@@ -1,0 +1,136 @@
+[
+ {
+  "pantalla": "login",
+  "violaciones": 0,
+  "criticas": 0,
+  "detalle": []
+ },
+ {
+  "pantalla": "tablero",
+  "violaciones": 1,
+  "criticas": 1,
+  "detalle": [
+   "color-contrast (serious, 7 nodos)"
+  ]
+ },
+ {
+  "pantalla": "mapa",
+  "violaciones": 1,
+  "criticas": 1,
+  "detalle": [
+   "color-contrast (serious, 7 nodos)"
+  ]
+ },
+ {
+  "pantalla": "sectores",
+  "violaciones": 1,
+  "criticas": 1,
+  "detalle": [
+   "color-contrast (serious, 7 nodos)"
+  ]
+ },
+ {
+  "pantalla": "telemetria",
+  "violaciones": 1,
+  "criticas": 1,
+  "detalle": [
+   "color-contrast (serious, 8 nodos)"
+  ]
+ },
+ {
+  "pantalla": "balance",
+  "violaciones": 1,
+  "criticas": 1,
+  "detalle": [
+   "color-contrast (serious, 8 nodos)"
+  ]
+ },
+ {
+  "pantalla": "nocturno",
+  "violaciones": 1,
+  "criticas": 1,
+  "detalle": [
+   "color-contrast (serious, 8 nodos)"
+  ]
+ },
+ {
+  "pantalla": "presiones",
+  "violaciones": 1,
+  "criticas": 1,
+  "detalle": [
+   "color-contrast (serious, 7 nodos)"
+  ]
+ },
+ {
+  "pantalla": "submedicion",
+  "violaciones": 1,
+  "criticas": 1,
+  "detalle": [
+   "color-contrast (serious, 7 nodos)"
+  ]
+ },
+ {
+  "pantalla": "alertas",
+  "violaciones": 1,
+  "criticas": 1,
+  "detalle": [
+   "color-contrast (serious, 7 nodos)"
+  ]
+ },
+ {
+  "pantalla": "pasos",
+  "violaciones": 1,
+  "criticas": 1,
+  "detalle": [
+   "color-contrast (serious, 7 nodos)"
+  ]
+ },
+ {
+  "pantalla": "ordenes",
+  "violaciones": 1,
+  "criticas": 1,
+  "detalle": [
+   "color-contrast (serious, 7 nodos)"
+  ]
+ },
+ {
+  "pantalla": "campo",
+  "violaciones": 1,
+  "criticas": 1,
+  "detalle": [
+   "color-contrast (serious, 7 nodos)"
+  ]
+ },
+ {
+  "pantalla": "usuarios",
+  "violaciones": 1,
+  "criticas": 1,
+  "detalle": [
+   "color-contrast (serious, 7 nodos)"
+  ]
+ },
+ {
+  "pantalla": "rendimiento",
+  "violaciones": 1,
+  "criticas": 1,
+  "detalle": [
+   "color-contrast (serious, 7 nodos)"
+  ]
+ },
+ {
+  "pantalla": "operacion",
+  "violaciones": 1,
+  "criticas": 1,
+  "detalle": [
+   "color-contrast (serious, 7 nodos)"
+  ]
+ },
+ {
+  "pantalla": "accesibilidad",
+  "violaciones": 1,
+  "criticas": 1,
+  "detalle": [
+   "color-contrast (serious, 7 nodos)"
+  ]
+ }
+]
