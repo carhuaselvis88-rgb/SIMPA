@@ -34,5 +34,5 @@ npm run build        # versión de producción en dist/
 ## Publicar en Cloudflare Pages (gratis)
 
 1. Cloudflare → Workers & Pages → Create → Pages → Connect to Git → elegir el repositorio.
-3. Framework preset: **Vite** · Build command: `npm run build` · Output directory: `dist` · Variable `NODE_VERSION=22`.
-4. Rama de producción: `main`; las demás ramas (p. ej. `develop`) generan vistas previas de calidad.
+2. Framework preset: **Vite** · Build command: `npm run build` · Output directory: `dist` · Variable `NODE_VERSION=22`.
+
